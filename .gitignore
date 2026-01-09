@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ignore data files
+*.csv
+*.nu
+*.h5
+*.xlsx
+
+# Ignore data files and folders
+data/
+*.nc
+
+# ignore environments
+.env
+.venv
